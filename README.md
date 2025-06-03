@@ -21,8 +21,8 @@ A Recurrent Neural Network (RNN) for next-word prediction using pre-trained GloV
    ```bash
    wget https://nlp.stanford.edu/data/glove.6B.zip
    unzip glove.6B.zip -d embeddings/
-mv embeddings/glove.6B/glove.6B.100d.txt embeddings/
-rm -rf embeddings/glove.6B/
+   mv embeddings/glove.6B/glove.6B.100d.txt embeddings/
+   rm -rf embeddings/glove.6B/
 
 4. **Run the script**:
    ```bash
